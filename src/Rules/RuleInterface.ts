@@ -1,5 +1,5 @@
 interface RuleInterface {
-    validate():boolean
+    validate(value : any):boolean
 }
 
 export type {RuleInterface}
